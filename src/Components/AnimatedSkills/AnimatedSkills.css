@@ -1,0 +1,16 @@
+.end-cursor:after{
+    content: '|';
+    color: darkgrey;
+    margin: -15px;
+}
+.end-cursor.blinking-cursor:after{
+    animation: blink 1500ms step-start infinite;
+
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+}
+.skill{
+}

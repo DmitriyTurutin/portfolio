@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import AboutMe from "./Components/AboutMe/AboutMe";
+import Header from "./Components/Header/Header";
+// import GitHub from "../public/images/iconmonstr-github-1.svg"
+const App: React.FC = () =>  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+        {/*<div className="row justify-content-center github"><a className={"col"} href="https://github.com/DmitriyTurutin">Link to GitHub</a></div>*/}
+        <Header/>
+        <AboutMe/>
     </div>
   );
 }

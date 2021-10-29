@@ -1,0 +1,12 @@
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+header.row.github{
+    height: 7vh;
+}
+.github-img{
+    height: 60px;
+    width: auto;
+    margin-top: 30px
+}

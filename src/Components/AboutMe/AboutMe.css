@@ -1,0 +1,67 @@
+/*Left side*/
+.about-me{
+    height: 90vh;
+}
+.image{
+    bottom: 0;
+    left: 12%;
+    width: 25%;
+    height: 50%;
+    overflow: hidden;
+}
+.me{
+    width: auto;
+    height: 120%;
+    filter: drop-shadow(15px 15px 25px rgba(0, 0, 0, 0.5));
+}
+.names{
+    margin-left: 4px;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40pt;
+    letter-spacing: 20pt;
+    margin-bottom:0;
+}
+.op-100{
+    opacity: 1;
+}
+.op-50{
+    opacity: 0.5;
+}
+.op-25{
+     opacity: 0.25;
+ }
+.op-5{
+    opacity: 0.05;
+}
+.op-1{
+    opacity: 0.01;
+}
+/*Right side*/
+.skills-row{
+    margin-top: 260px
+}
+.skill-col:hover{
+    cursor: pointer;
+    color: blue;
+}
+.skills-col{
+    letter-spacing: 8px;
+
+    /*border: 1pt solid black;*/
+}
+.skill{
+    font-family: 'Courier Prime', monospace;
+    font-size: 40pt;
+    letter-spacing: 6px;
+}
+.skills-animation{
+    margin-top: 40px;
+}
+.skills-h1:hover{
+    cursor: default;
+}
+.skills-h1{
+    text-shadow: 10px 10px 15px grey
+}
